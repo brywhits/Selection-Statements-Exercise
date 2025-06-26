@@ -4,30 +4,30 @@
     {
         static void Main(string[] args)
         {
-            // Random r = new Random();
-            // int favNum = r.Next(1, 100);
-            // int userInput = 0;
-            //
-            // Console.WriteLine("Guess my favorite number between 1 and 100?");
-            //
-            // while (userInput != favNum)
-            // {
-            //     userInput = int.Parse(Console.ReadLine());
-            //
-            //     if (userInput < favNum)
-            //     {
-            //         Console.WriteLine("Too low! Guess again.");
-            //     }
-            //     else if (userInput > favNum)
-            //     {
-            //         Console.WriteLine("Too high! Guess again");
-            //     }
-            //     else
-            //     {
-            //         Console.WriteLine("Congratulations bud you guessed it!!!!");
-            //     }
-            //
-            // }
+            Random r = new Random();
+            int favNum = r.Next(1, 100);
+            int userInput = 0;
+            
+            Console.WriteLine("Guess my favorite number between 1 and 100?");
+            
+            while (userInput != favNum)
+            {
+                userInput = int.Parse(Console.ReadLine());
+            
+                if (userInput < favNum)
+                {
+                    Console.WriteLine("Too low! Guess again.");
+                }
+                else if (userInput > favNum)
+                {
+                    Console.WriteLine("Too high! Guess again");
+                }
+                else
+                {
+                    Console.WriteLine("Congratulations bud you guessed it!!!!");
+                }
+            
+            }
             
             Console.WriteLine("Enter your favorite school subject: ");
             
